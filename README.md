@@ -6,23 +6,8 @@
 
 Learn how to use the [SystemCore](https://github.com/NoOrientationProgramming/SystemCore#processing-start).
 
-## Status of the project
-
-### Processing()
-
-- Mature code created in 2018
-- Finished
-
-### ProcessingTutorials
-
+Status
 - In progress
-- Goal
-  - Approx. 10 short applications
-  - Only containing usage of the Processing() class
-  - No other dependencies
-  - Running on Windows, Linux & Raspberry Pi
-  - README for every tutorial
-- Finished to: 30%
 
 ## Run the Tutorials
 
