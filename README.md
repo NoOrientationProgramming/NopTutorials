@@ -1,10 +1,10 @@
 
-![GitHub](https://img.shields.io/github/license/NoOrientationProgramming/ProcessingTutorials?style=plastic)
-![Twitch Status](https://img.shields.io/twitch/status/Naegolus?label=twitch.tv%2FNaegolus&logo=Twitch&logoColor=%2300ff00&style=plastic)
+![GitHub](https://img.shields.io/github/license/NoOrientationProgramming/ProcessingTutorials?style=plastic&color=blue)
 
-Learn how to use the [Processing()](https://github.com/NoOrientationProgramming/ProcessingCore) class.
+[![Discord](https://img.shields.io/discord/960639692213190719?style=plastic&color=purple&logo=discord)](https://discord.gg/FBVKJTaY)
+[![Twitch Status](https://img.shields.io/twitch/status/Naegolus?label=twitch.tv%2FNaegolus&logo=Twitch&logoColor=%2300ff00&style=plastic&color=purple)](https://twitch.tv/Naegolus)
 
-&rarr; Streaming every Monday and Thursday at 20:00 (8 PM) CEST at [twitch.tv/Naegolus](https://twitch.tv/Naegolus)
+Learn how to use the [SystemCore](https://github.com/NoOrientationProgramming/SystemCore#processing-start).
 
 ## Status of the project
 
