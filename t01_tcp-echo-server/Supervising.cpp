@@ -138,12 +138,9 @@ bool Supervising::servicesStart()
 
 void Supervising::usersAdd()
 {
-	PipeEntry<int> peerFdEntry;
-	int peerFd;
-
-	if (mpList->ppPeerFd.get(peerFdEntry) < 1)
+	int peerFd = mpList->nextPeerFd();
+	if (peerFd == INVALID_SOCKET)
 		return;
-	peerFd = peerFdEntry.particle;
 
 	procInfLog("Peer connected");
 
