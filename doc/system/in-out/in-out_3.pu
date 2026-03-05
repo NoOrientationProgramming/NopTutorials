@@ -1,0 +1,27 @@
+
+@startuml
+
+' skinparam linetype ortho
+
+frame "Processing" as pProc
+
+database "Input" as sIn {
+  database "Input\nExistent" as sInE
+  database "Input\nNon-Existent" as sInN
+}
+
+database "Output" as sOut {
+  database "Output\nNon-Existent" as sOutN
+  database "Output\nExistent" as sOutE
+}
+
+sInE --> pProc
+sInN <.. pProc
+
+pProc <.. sOutN
+pProc --> sOutE
+
+footer **Processes** Input / Output - 3\n(C) DSP-Crowd Electronics GmbH
+
+@enduml
+

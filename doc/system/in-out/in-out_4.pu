@@ -1,0 +1,20 @@
+
+@startuml
+
+' skinparam linetype ortho
+
+frame "Processing" as pProc
+
+database "Input" as sIn
+database "Output" as sOut
+
+sIn --> pProc
+sIn <.. pProc
+
+pProc <.. sOut
+pProc --> sOut
+
+footer **Processes** Input / Output - 4\n(C) DSP-Crowd Electronics GmbH
+
+@enduml
+
