@@ -11,17 +11,18 @@ component "System" as pSys
 database "States" as sState
 frame "Processes" as pProc
 
-pLife --> pLife
 pLife <-l- sExist
 pLife <-r- pChange
 
-pSys --> pSys
 pSys <-l- sState
 pSys <-r- pProc
 
 sExist ..> sState
 pLife ..> pSys : Instance of
 pChange ..> pProc
+
+pChange --> pChange
+pProc --> pProc
 
 footer **Processing()** Life - Definition\n(C) DSP-Crowd Electronics GmbH
 
